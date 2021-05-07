@@ -1,4 +1,4 @@
-# Facebook Image Date Formatter
+# Facebook Date Image Formatter
 
 ---
 
