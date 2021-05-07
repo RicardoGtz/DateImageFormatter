@@ -1,4 +1,4 @@
-#Facebook Image Date Formatter
+# Facebook Image Date Formatter
 
 ---
 
@@ -10,7 +10,7 @@ If you want to know how to download a copy of all your photos from Facebook plea
 By default, the photos will have the date of when the copy was created as the date in the EXIF data, this script modifies
 the EXIF info of each photo and replace it with the upload date of the photo.
 
-##How to use it?
+## How to use it?
 
 ---
 
@@ -19,14 +19,14 @@ Extract the zip file downloaded directly from Facebook, execute the script follo
 
 `$ python facebookImageDateFormatter C:/full_path/extracted_folder/photos_and_videos/album`
 
-###How it works?
+### How it works?
 
 ---
 
 The script will scan throw the html files inside the *album* folder, each file have the images with the date info attached
 the script extract this info and updates the date in EXIF data of the image file.
 
-####Dependencies list
+#### Dependencies list
 |Package    |Version    |
 |-----------|---------------|
 |beautifulsoup4| [4.9.3](https://pypi.org/project/beautifulsoup4/)|
